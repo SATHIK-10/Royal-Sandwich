@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+       header {
+    background-color:white; 
+    padding: 20px;
+ position: fixed;
+ z-index: 1;
+ width:100%;
+ top:0;
+ 
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+    width:70px;
+    height: auto;
+    border-radius: 50%;
+    border:.5px solid black;
+
+}
+.logo h1 {
+    margin-top: 20px;
+    color: darkgreen;
+    font-family: 'Georgia', serif;
+    font-size: 35px;
+    margin: 0;
+    font-weight:bolder;
+    position: relative;
+    top:10px;
+    left:15px;
+}
+.navbar {
+    position: relative;
+    top:40px;
+    right:30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar img{
+  position: fixed;
+    width:50px;
+    height:auto;
+    position: relative;
+    bottom:38px;
+    left:15px;
+    border-radius:50%;
+}
+.body{
+  background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+height:200vh;
+}
+.navbar li a {
+    color:darkgreen;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+  margin-right: 5px;
+}   </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="rs.jpeg" alt="">
+                <h1>Royal Sandwich</h1>
+            </div>
+            <ul class="navbar">
+                <li><a href="index.html"><i class="fa-solid fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa fa-users" aria-hidden="true"></i>About Us</a></li>
+                <li><a href="menu.html"><i class="fa-solid fa-bars"></i>Menu</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>contact</a></li>
+             
+                <img src="halal.jpg" alt="">
+            </ul>
+           
+        </nav>
+    </header>
+    <hr>
+    
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+     <style>
+        header {
+    background-color:white; 
+    padding: 20px;
+ position: fixed;
+ z-index: 1;
+ width:100%;
+ top:0;
+ 
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+    width:70px;
+    height: auto;
+    border-radius: 50%;
+    border:.5px solid black;
+
+}
+.logo h1 {
+    margin-top: 20px;
+    color: darkgreen;
+    font-family: 'Georgia', serif;
+    font-size: 35px;
+    margin: 0;
+    font-weight:bolder;
+    position: relative;
+    top:10px;
+    left:15px;
+}
+.navbar {
+    position: relative;
+    top:40px;
+    right:30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar img{
+  position: fixed;
+    width:50px;
+    height:auto;
+    position: relative;
+    bottom:38px;
+    left:15px;
+    border-radius:50%;
+}
+body{
+  background-image: url('bg.jpg');
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+height:200vh;
+}
+.navbar li a {
+    color:darkgreen;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+  margin-right: 5px;
+}
+
+#contactheading {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 2.5em;
+  color: #fff;
+position: relative;
+top:100px;
+  background: none;
+
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+
+form {
+  width: 40%;
+  background-color: #f8f8f8;
+  padding: 2em;
+  background:transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px white;
+}
+
+.form-group {
+  margin-bottom: 1.5em;
+}
+
+label {
+  display: block;
+  margin-bottom: .5em;
+  color: white;
+  font-size:20px;
+  text-shadow:0 0 4px lightgreen ;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .75em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 1em;
+  background-color: #53BF9D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #46a081;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.social-menu ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.social-menu li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.social-menu a {
+  color: white;
+  font-size: 1.5em;
+}
+
+.social-menu a:hover {
+  color: #ccc;
+}
+
+     </style>
+    <title>Contact Us </title>
+</head>
+<body>
+  <h2 id="contactheading"  style="font-size: 40px; font-family: 'Poppins'; color: white;
+           text-shadow: 0 0 5px #fff, 
+                        0 0 10px darkgreen, 
+                        0 0 15px darkgreen, 
+                        0 0 20px darkgreen, 
+                        0 0 25px darkgreen, 
+                        0 0 30px darkgreen, 
+                        0 0 35px darkgreen;">Contact Us</h2>
+    <div class="contact-form">
+        <form action="form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="names" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="emails" required>
+            </div>
+           
+            <div class="form-group">
+                <label for="message">Enquiry:</label>
+                <textarea id="message" name="messages" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+    
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    
+     
+      html, body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    
+    
+      .content-wrapper {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .footer {
+        margin-top:200px;
+        background-color:black;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        width:100%;
+      }
+      
+      .footer .social-icons {
+        margin: 10px 0;
+      }
+    
+      .footer .social-icons a {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 24px;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+    
+      .footer .social-icons a:hover {
+        color: #d4a373;
+      }
+    
+      .footer .address, .footer .copyright {
+        margin: 5px 0;
+        font-size: 14px;
+      }
+      a img{
+        border-radius: 50%;;
+      }
+    </style>
+    </head>
+    <body>
+    
+    <div class="content-wrapper">
+    
+    </div>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="https://www.youtube.com" target="_blank" class="fab fa-youtube"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+        <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook"></a>
+        <a href="https://www.swiggy.com" target="_blank" class="icon-link">
+          <img src="https://cdn-images-1.medium.com/max/1200/1*sQa3vSQd9V4k-PeVNgGg0Q.png" alt="Swiggy" style="width: 24px; height: 24px;position:relative;top:2px;right:3px;">
+       
+        </a>
+        <a href="https://www.zomato.com" target="_blank" class="icon-link">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-zomato-logo-icon-download-in-svg-png-gif-file-formats--food-company-brand-delivery-brans-logos-icons-1637644.png" alt="Zomato" style="width: 24px; height: 24px;position:relative;top:2px;right:8px;">
+         
+        </a>
+            
+      </div>
+      <div class="address">
+        Address: TTK Road, Alwarpet, Chennai
+      </div>
+      <div class="copyright">
+        &copy; 2024 Royal Sandwich. All rights reserved.
+      </div>
+    </footer>
+    
+    </body>
+    </html>
+</body>
+</html>

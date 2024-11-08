@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+       header {
+    background-color:white; 
+    padding: 20px;
+ position: fixed;
+ z-index: 1;
+ width:100%;
+ top:0;
+ 
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+    width:70px;
+    height: auto;
+    border-radius: 50%;
+    border:.5px solid black;
+
+}
+.logo h1 {
+    margin-top: 20px;
+    color: darkgreen;
+    font-family: 'Georgia', serif;
+    font-size: 35px;
+    margin: 0;
+    font-weight:bolder;
+    position: relative;
+    top:10px;
+    left:15px;
+}
+.navbar {
+    position: relative;
+    top:40px;
+    right:30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar img{
+  position: fixed;
+    width:50px;
+    height:auto;
+    position: relative;
+    bottom:38px;
+    left:15px;
+    border-radius:50%;
+}
+.body{
+  background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+height:200vh;
+}
+.navbar li a {
+    color:darkgreen;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+  margin-right: 5px;
+}   </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="rs.jpeg" alt="">
+                <h1>Royal Sandwich</h1>
+            </div>
+            <ul class="navbar">
+                <li><a href="index.html"><i class="fa-solid fa-home"></i>Home</a></li>
+                <li><a href="about.html"><i class="fa fa-users" aria-hidden="true"></i>About Us</a></li>
+                <li><a href="menu.html"><i class="fa-solid fa-bars"></i>Menu</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>contact</a></li>
+             
+                <img src="halal.jpg" alt="">
+            </ul>
+           
+        </nav>
+    </header>
+    <hr>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Sandwich Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+           header {
+    background-color:white; 
+    padding: 20px;
+ position: fixed;
+ z-index: 1;
+ width:100%;
+ 
+}
+.logo{
+    display: flex;
+    
+
+}
+.logo img{
+    width:70px;
+    height: auto;
+    border-radius: 50%;
+    border:.5px solid black;
+
+}
+.logo h1 {
+    font-weight:bolder;
+    margin-top: 20px;
+    color: darkgreen;
+    font-family: 'Georgia', serif;
+    font-size: 35px;
+    margin: 0;
+    position: relative;
+    top:10px;
+    left:15px;
+}
+.navbar {
+    position: relative;
+    top:40px;
+    right:30px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar img{
+  position: fixed;
+    width:50px;
+    height:auto;
+    position: relative;
+    bottom:38px;
+    left:15px;
+    border-radius:50%;
+}
+.body{
+  background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+height:200vh;
+}
+.navbar li a {
+    color:darkgreen;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.navbar li a:hover {
+    text-decoration: underline;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+  margin-right: 5px;
+}
+       body{
+        min-height:150vh;
+        background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-size:cover ;
+       }
+        .menu-container {
+         
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            background:url('https://c8.alamy.com/comp/2JFYH9W/menu-frame-border-background-2JFYH9W.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0  0 14px 8px white;
+            border-radius: 8px;
+            position: relative;
+            height:122vh;
+            top: 150px;
+            left: 350px;
+               }
+        .menu-header {
+            text-align: center;
+            color:darkgreen;
+            font-size: 32px;
+            font-weight: bold;
+         position: relative;
+         top: 10px;
+        }
+        .menu-section {
+            margin: 20px 0;
+         
+        }
+        .menu-section h2 {
+            font-size: 24px;
+            color:darkgreen;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 5px;
+          margin-top: 150px;
+        }
+        .menu-item {
+        display: flex;           
+        justify-content: space-between; 
+        align-items: center;      
+        padding: 8px 0;
+        border-bottom: 1px dotted grey;
+    }
+
+ 
+ .in button{
+    position: relative;
+    right:38px;
+ }
+
+    .menu-item input {margin-right: 10px;
+width: 50px;
+padding: 4px;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+    }
+
+    .quantity-input {
+       
+        width: 50px;
+        padding: 4px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+    }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item-name {
+            margin-left: 35px;
+            color: darkgreen;
+            font-size: 18px;
+        }
+        .menu-item-price {
+            margin-right: 35px;
+            color: #ff6347;
+            font-weight: bold;
+        }
+        .menu-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+        .arrow-button {
+            background-color: #ff6347;
+            border: none;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 12px;
+            width: 40px; 
+            height: 40px; 
+            position: absolute;
+        }
+        .arrow-button.left {
+            left: 15px; 
+            bottom: 15px; 
+        }
+        .arrow-button.right {
+            right: 15px; 
+            bottom: 15px; 
+        }
+        h2{
+            text-align:center;
+            font-weight:bolder;
+            text-transform:uppercase;
+            font-size:30px;
+            font-family: "Itim", cursive;
+        }
+        .btn button{
+            position: relative;
+            right:38px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container" id="veg-menu">
+        <div class="menu-section">
+            <h2>Veg Sandwiches</h2>
+    
+          <div class="btn"> <div class="menu-item">
+                <span class="menu-item-name">Classic Veg Sandwich</span>
+                <span class="menu-item-price">₹40</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-1" style="position:relative;left:30px;">
+                <button onclick="addToCart('Classic Veg Sandwich', 40, 'qty-veg-1')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Paneer Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-2" style="position:relative;left:43px;">
+                <button onclick="addToCart('Paneer Sandwich', 60, 'qty-veg-2')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Paneer Cheese/Mayo Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-3" style="position:relative;left:10px;">
+                <button onclick="addToCart('Paneer Cheese/Mayo Sandwich', 60, 'qty-veg-3')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Corn Cheese/Mayo Sandwich</span>
+                <span class="menu-item-price">₹50</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-4" style="position:relative;left:15px;">
+                <button onclick="addToCart('Corn Cheese/Mayo Sandwich', 50, 'qty-veg-4')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Mushroom Cheese/Mayo Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-5" style="position:relative;left:px;">
+                <button onclick="addToCart('Mushroom Cheese/Mayo Sandwich', 60, 'qty-veg-5')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Veg Cheese Sandwich</span>
+                <span class="menu-item-price">₹50</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-6" style="position:relative;left:32px;">
+                <button onclick="addToCart('Veg Cheese Sandwich', 50, 'qty-veg-6')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Dark Chocolate Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-7" style="position:relative;left:20px;">
+                <button onclick="addToCart('Dark Chocolate Sandwich', 60, 'qty-veg-7')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Mixed Chocolate Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-8" style="position:relative;left:18px;">
+                <button onclick="addToCart('Mixed Chocolate Sandwich', 60, 'qty-veg-8')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Strawberry Chocolate Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-9" style="position:relative;left:8px;">
+                <button onclick="addToCart('Strawberry Chocolate Sandwich', 60, 'qty-veg-9')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">White Chocolate Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-10" style="position:relative;left:20px;">
+                <button onclick="addToCart('White Chocolate Sandwich', 60, 'qty-veg-10')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Brownie Chocolate Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-11" style="position:relative;left:14px;">
+                <button onclick="addToCart('Brownie Chocolate Sandwich', 60, 'qty-veg-11')">Add</button>
+            </div></div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chocolate Banana Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-veg-12" style="position:relative;left:15px;">
+                <button style="position:relative; right:38px;"onclick="addToCart('Chocolate Banana Sandwich', 60, 'qty-veg-12')">Add</button>
+            </div>
+        </div>
+        <button class="arrow-button right" onclick="showNonVegMenu()">→</button>
+    </div>
+
+    <div class="menu-container" id="non-veg-menu" style="display: none;">
+        <div class="menu-section">
+            <h2>Non-Veg Sandwiches</h2>
+           <div class="in">
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Sandwich</span>
+                <span class="menu-item-price">₹70</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-1" style="position:relative;left:40px;">
+                <button onclick="addToCart('Chicken Sandwich', 70, 'qty-nonveg-1')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Bread Omelette Cheese Sandwich</span>
+                <span class="menu-item-price">₹50</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-2" style="position:relative;left:7px;">
+                <button onclick="addToCart('Bread Omelette Cheese Sandwich', 50, 'qty-nonveg-2')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Bread Omelette Mayo Sandwich</span>
+                <span class="menu-item-price">₹50</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-3" style="position:relative;left:11px;">
+                <button onclick="addToCart('Bread Omelette Mayo Sandwich', 50, 'qty-nonveg-3')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Bread Omelette Paneer Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-4" style="position:relative;left:10px;">
+                <button onclick="addToCart('Bread Omelette Paneer Sandwich', 60, 'qty-nonveg-4')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Bread Omelette Mushroom Sandwich</span>
+                <span class="menu-item-price">₹60</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-5" style="position:relative;right:3px;">
+                <button onclick="addToCart('Bread Omelette Mushroom Sandwich', 60, 'qty-nonveg-5')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Bread Omelette Masala Sandwich</span>
+                <span class="menu-item-price">₹55</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-6" style="position:relative;left:7px;">
+                <button onclick="addToCart('Bread Omelette Masala Sandwich', 55, 'qty-nonveg-6')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Sandwich</span>
+                <span class="menu-item-price">₹70</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-7" style="position:relative;left:40px;">
+                <button onclick="addToCart('Chicken Sandwich', 70, 'qty-nonveg-7')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Cheese Sandwich</span>
+                <span class="menu-item-price">₹80</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-8" style="position:relative;left:22px;">
+                <button onclick="addToCart('Chicken Cheese Sandwich', 80, 'qty-nonveg-8')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Mayo Sandwich</span>
+                <span class="menu-item-price">₹80</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-9" style="position:relative;left:23px;">
+                <button onclick="addToCart('Chicken Mayo Sandwich', 80, 'qty-nonveg-9')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Paneer Sandwich</span>
+                <span class="menu-item-price">₹85</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-10" style="position:relative;left:22px;">
+                <button onclick="addToCart('Chicken Paneer Sandwich', 85, 'qty-nonveg-10')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Mushroom Sandwich</span>
+                <span class="menu-item-price">₹85</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-11" style="position:relative;left:13px;">
+                <button onclick="addToCart('Chicken Mushroom Sandwich', 85, 'qty-nonveg-11')">Add</button>
+            </div>
+            <div class="menu-item">
+                <span class="menu-item-name">Chicken Masala Sandwich</span>
+                <span class="menu-item-price">₹75</span>
+                <input type="number" min="1" placeholder="Qty" id="qty-nonveg-12" style="position:relative;left:20px;">
+                <button onclick="addToCart('Chicken Masala Sandwich', 75, 'qty-nonveg-12')">Add</button>
+            </div></div>
+        </div>
+        <button class="arrow-button left" onclick="showVegMenu()">←</button>
+    </div>
+
+
+    <script>
+     function showNonVegMenu() {
+    document.getElementById('veg-menu').style.display = 'none';
+    document.getElementById('non-veg-menu').style.display = 'block';
+}
+
+function showVegMenu() {
+    document.getElementById('non-veg-menu').style.display = 'none';
+    document.getElementById('veg-menu').style.display = 'block';
+}
+
+function addToCart(name, price, qtyId) {
+    const quantity = document.getElementById(qtyId).value;
+    if (quantity && quantity > 0) {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push({ name, price, quantity: parseInt(quantity) });
+        localStorage.setItem('cart', JSON.stringify(cart));
+        alert(`${name} added to cart!`);
+    } else {
+        alert("Please enter a valid quantity.");
+    }
+}
+
+function updateCart() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartItems = document.getElementById('cart-items');
+    cartItems.innerHTML = '';
+
+    let total = 0;
+    cart.forEach((item, index) => {
+        const itemTotal = item.price * item.quantity;
+        total += itemTotal;
+
+        const li = document.createElement('li');
+        li.innerHTML = `
+            ${item.name} - ₹${item.price} x ${item.quantity} = ₹${itemTotal}
+            <button class="delete-button" onclick="removeFromCart(${index})">Delete</button>
+        `;
+        cartItems.appendChild(li);
+    });
+
+    document.getElementById('total-amount').textContent = total;
+}
+
+function removeFromCart(index) {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.splice(index, 1);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCart();
+}
+
+window.onload = updateCart;
+
+    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footer Example</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 
+  html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    margin-top:200px;
+    background-color:black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width:100%;
+  }
+  
+  .footer .social-icons {
+    margin: 10px 0;
+  }
+
+  .footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer .social-icons a:hover {
+    color: #d4a373;
+  }
+
+  .footer .address, .footer .copyright {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  a img{
+    border-radius: 50%;;
+  }
+</style>
+</head>
+<body>
+
+<div class="content-wrapper">
+
+</div>
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.youtube.com" target="_blank" class="fab fa-youtube"></a>
+    <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+    <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook"></a>
+    <a href="https://www.swiggy.com" target="_blank" class="icon-link">
+      <img src="https://cdn-images-1.medium.com/max/1200/1*sQa3vSQd9V4k-PeVNgGg0Q.png" alt="Swiggy" style="width: 24px; height: 24px;position:relative;top:2px;right:3px;">
+   
+    </a>
+    <a href="https://www.zomato.com" target="_blank" class="icon-link">
+      <img src="https://cdn.iconscout.com/icon/free/png-256/free-zomato-logo-icon-download-in-svg-png-gif-file-formats--food-company-brand-delivery-brans-logos-icons-1637644.png" alt="Zomato" style="width: 24px; height: 24px;position:relative;top:2px;right:8px;">
+     
+    </a>
+        
+  </div>
+  <div class="address">
+    Address: TTK Road, Alwarpet, Chennai
+  </div>
+  <div class="copyright">
+    &copy; 2024 Royal Sandwich. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
+</body>
+</html>
